@@ -22,9 +22,19 @@ This script executes the Kerbrute command to enumerate valid usernames in an Act
 The script requires two arguments:
 1. The Kerbrute command to execute.
 2. The path to the output file where valid usernames will be saved.
+3. An optional `--emails` flag to indicate if full email addresses should be saved instead of just usernames.
 
 ### Example
+
+#### Save Only Usernames
 
 ```bash
 ./KerbruteUserenumWordlist.sh "kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt" valid_usernames.txt
 ```
+
+#### Save Full Email Addresses
+
+```bash
+./KerbruteUserenumWordlist.sh "kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt" valid_usernames.txt --emails
+```
+
