@@ -13,8 +13,8 @@ display_help() {
     echo "  --emails   Save full email addresses instead of just usernames."
     echo
     echo "Example:"
-    echo "  $0 \"kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt\" valid_usernames.txt"
-    echo "  $0 \"kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt\" valid_usernames.txt --emails"
+    echo "  $0 \"kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /usr/share/seclists/Usernames/top-usernames-shortlist.txt\" valid_usernames.txt"
+    echo "  $0 \"kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /usr/share/seclists/Usernames/top-usernames-shortlist.txt\" valid_usernames.txt --emails"
     exit 0
 }
 

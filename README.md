@@ -29,12 +29,12 @@ The script requires two arguments:
 #### Save Only Usernames
 
 ```bash
-./KerbruteUserenumWordlist.sh "kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt" valid_usernames.txt
+./KerbruteUserenumWordlist.sh "kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /usr/share/seclists/Usernames/top-usernames-shortlist.txt" valid_usernames.txt
 ```
 
 #### Save Full Email Addresses
 
 ```bash
-./KerbruteUserenumWordlist.sh "kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt" valid_usernames.txt --emails
+./KerbruteUserenumWordlist.sh "kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /usr/share/seclists/Usernames/top-usernames-shortlist.txt" valid_usernames.txt --emails
 ```
 
