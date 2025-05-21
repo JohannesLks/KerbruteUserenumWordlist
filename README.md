@@ -1,6 +1,6 @@
 # Kerbrute User Enumeration Script
 
-This script executes the Kerbrute command to enumerate valid usernames in an Active Directory environment. After the command completes, the valid usernames are saved to a specified file.
+This script executes the Kerbrute command to enumerate valid usernames in an Active Directory environment. After the command completes, the valid usernames are saved to a specified file. This script is based on a Use-Case in Hack The Box.
 
 ## Prerequisites
 
